@@ -1,0 +1,112 @@
+#sobre, #servicos, #portifolio, #competencias, #contato {
+    padding: 10rem 0;
+}
+
+.bgimage {
+height: 100vh;
+position: relative;
+background: url("img/fundoRosa.jpg");
+background-size: cover;
+}
+.heroTitle {
+    font-size: 4.5rem;
+}
+.heroDesc {
+    font-size: 2rem;
+}
+.heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* imagem - sobre mim */
+.aboutImage {
+    width: 60%;
+    border-radius: 15px;
+}
+#sobreMim {
+    text-align: justify;
+}
+
+.servicesText.card {
+    height: 300px;
+    cursor: pointer;
+    padding: 0 2rem;
+}
+
+.servicesIcon {
+    height: 36px;
+    text-align: center;
+    width: 100%;    
+}
+
+.cardTitle {
+    text-align: center;
+}
+.cardText {
+    text-align: justify;
+}
+
+.card:hover .servicesIcon {
+    color: #7c0080;
+}
+
+.servicesText:hover {
+    border: 1px solid #fb2edf;
+}
+
+.navbar {
+    background-color: #2e0254;
+}
+
+.navbar a {
+    color: white;
+    padding: 0.5rem;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 4px;
+}
+
+.contactIcon {
+    font-size:3.0rem;
+    padding: 0 3rem;
+    color: #ae057b;
+    
+}
+
+footer {
+    background-color: #6b0279;
+}
+.footerIcon {
+    font-size: 1.5rem;
+    color: white;    
+}
+.footerIcon:hover {
+    color: #c4c4c4;
+}
+.footerDev {
+    background-color:  #2e0254;
+}
+
+.glass {
+    /* From https://css.glass */
+    position: absolute;
+    height: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* From https://css.glass */
+    background: rgba(208, 18, 206, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+}
+
