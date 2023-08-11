@@ -6,10 +6,13 @@
   padding: 10rem 0;
 }
 
+body{
+  background-color: #ffffff;
+}
 .bgimage {
   height: 100vh;
   position: relative;
-  background: url("img/fundoRosa.jpg");
+  background: url("img/fundofreepik.jpg");
   background-size: cover;
 }
 .heroTitle {
