@@ -82,7 +82,9 @@ body{
   border-radius: 4px;
 }
 .navbar-dark {
-  border-color: antiquewhite;
+  color: antiquewhite;
+  border-radius: 5px;
+  background-color: #9e69de;
 }
 
 .contactIcon {
