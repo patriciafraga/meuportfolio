@@ -81,9 +81,9 @@ body{
   color: rgb(21, 4, 49);
   border-radius: 4px;
 }
-/* span.navbar-toggler-icon {
-  color: white;
-} */
+.navbar-dark {
+  border-color: antiquewhite;
+}
 
 .contactIcon {
   font-size: 3rem;
