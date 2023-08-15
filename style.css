@@ -16,10 +16,10 @@ body{
   background-size: cover;
 }
 .heroTitle {
-  font-size: 4.5rem;
+  font-size: 3rem;
 }
 .heroDesc {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .heroText {
   text-align: center;
@@ -81,9 +81,9 @@ body{
   color: rgb(21, 4, 49);
   border-radius: 4px;
 }
-span.navbar-toggler-icon {
+/* span.navbar-toggler-icon {
   color: white;
-}
+} */
 
 .contactIcon {
   font-size: 3rem;
@@ -101,9 +101,18 @@ iframe {
 footer {
   background-color: #623697;
 }
+/* footer.divIcon {
+   flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-content: baseline; 
+} */
 .footerIcon {
   font-size: 1.5rem;
   color: rgb(156, 128, 245);
+  /* display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-content: baseline; */
 }
 .footerIcon:hover {
   color: #adadad;
