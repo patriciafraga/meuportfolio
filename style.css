@@ -66,6 +66,9 @@ body{
 .servicesText:hover {
   border: 1px solid #fb2edf;
 }
+button.navbar-toggler {
+  background-color: #7c7593;
+}
 
 .navbar {
   background-color: #2e0254;
@@ -81,10 +84,10 @@ body{
   color: rgb(21, 4, 49);
   border-radius: 4px;
 }
-.navbar-dark {
+.navbar-ligth {
   color: antiquewhite;
   border-radius: 5px;
-  background-color: #9e69de;
+  background-color: #7c7593;
 }
 
 .contactIcon {
@@ -126,7 +129,7 @@ footer {
 .glass {
   /* From https://css.glass */
   position: absolute;
-  height: 40%;
+  height: 55%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
